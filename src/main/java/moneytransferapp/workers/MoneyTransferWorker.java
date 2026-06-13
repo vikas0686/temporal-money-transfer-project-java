@@ -1,10 +1,13 @@
 // @@@SNIPSTART money-transfer-java-worker
-package moneytransferapp;
+package moneytransferapp.workers;
 
 import io.temporal.client.WorkflowClient;
 import io.temporal.serviceclient.WorkflowServiceStubs;
 import io.temporal.worker.Worker;
 import io.temporal.worker.WorkerFactory;
+import moneytransferapp.activities.AccountActivityImpl;
+import moneytransferapp.models.Shared;
+import moneytransferapp.workflows.MoneyTransferWorkflowImpl;
 
 public class MoneyTransferWorker {
 

@@ -5,11 +5,14 @@ import io.temporal.api.common.v1.WorkflowExecution;
 import io.temporal.client.WorkflowClient;
 import io.temporal.client.WorkflowOptions;
 import io.temporal.serviceclient.WorkflowServiceStubs;
+import moneytransferapp.models.CoreTransactionDetails;
+import moneytransferapp.models.Shared;
+import moneytransferapp.models.TransactionDetails;
+import moneytransferapp.workflows.MoneyTransferWorkflow;
 
 import java.security.SecureRandom;
 import java.time.Instant;
 import java.util.UUID;
-import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.concurrent.ThreadLocalRandom;

@@ -1,8 +1,9 @@
 // @@@SNIPSTART money-transfer-java-workflow-interface
-package moneytransferapp;
+package moneytransferapp.workflows;
 
 import io.temporal.workflow.WorkflowInterface;
 import io.temporal.workflow.WorkflowMethod;
+import moneytransferapp.models.TransactionDetails;
 
 @WorkflowInterface
 public interface MoneyTransferWorkflow {

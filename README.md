@@ -30,7 +30,7 @@ Open another terminal window and run the following command to run
 the Worker:
 
 ```
-mvn compile exec:java -Dexec.mainClass="moneytransferapp.MoneyTransferWorker" 
+mvn compile exec:java -Dexec.mainClass="moneytransferapp.workers.MoneyTransferWorker" 
 ```
 
 ## Step 3: Start the Workflow

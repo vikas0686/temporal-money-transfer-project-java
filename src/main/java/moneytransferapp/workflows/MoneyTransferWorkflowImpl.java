@@ -1,9 +1,11 @@
 // @@@SNIPSTART money-transfer-java-workflow-implementation
-package moneytransferapp;
+package moneytransferapp.workflows;
 
 import io.temporal.activity.ActivityOptions;
 import io.temporal.workflow.Workflow;
 import io.temporal.common.RetryOptions;
+import moneytransferapp.activities.AccountActivity;
+import moneytransferapp.models.TransactionDetails;
 
 import java.time.Duration;
 import java.util.HashMap;

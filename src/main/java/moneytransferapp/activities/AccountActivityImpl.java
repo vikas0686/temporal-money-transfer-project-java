@@ -1,5 +1,5 @@
 // @@@SNIPSTART money-transfer-java-activity-implementation
-package moneytransferapp;
+package moneytransferapp.activities;
 
 import io.temporal.activity.*;
 
